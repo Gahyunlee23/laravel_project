@@ -1,0 +1,101 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+@import "~tailwindcss/base";
+
+@import "~tailwindcss/components";
+
+@import "~tailwindcss/utilities";
+
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css');
+@import url('https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
+
+@font-face {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeoR';
+    src: url("https://www.livinginhotel.com/font/AppleSDGothicNeoR.woff") format('woff'),
+    url("https://www.livinginhotel.com/font/AppleSDGothicNeoR.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url("https://www.livinginhotel.com/font/PT_Serif-Regular.woff") format('woff'),
+    url("https://www.livinginhotel.com/font/PTSerif-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'PT Serif Italic';
+    src: url("https://www.livinginhotel.com/font/PT_Serif-Italic.woff") format('woff'),
+    url("https://www.livinginhotel.com/font/PTSerif-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'PT Serif Bold';
+    src:url("https://www.livinginhotel.com/font/PT_Serif-Bold.woff") format('woff'),
+    url("https://www.livinginhotel.com/font/PTSerif-Bold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'TimesNewRomanPS-ItalicMT';
+    src: url("https://www.livinginhotel.com/font/timesnewromanps-italicmt.ttf") format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+
+.JeJuMyeongJo {
+    font-family: 'Jeju Myeongjo', sans-serif;
+}
+.NaNumSquare { font-family: 'NanumSquare', sans-serif !important;}
+
+.AppSdGothicNeoR{
+    font-family: 'AppleSDGothicNeoR', 'NanumSquare', sans-serif;
+}
+.PtSerif {
+    font-family: 'PT Serif', 'NanumSquare', sans-serif;
+}
+.PtSerifItalic {
+    font-family: 'PT Serif Italic', 'NanumSquare', sans-serif;
+}
+.PtSerifBold {
+    font-family: 'PT Serif Bold', 'NanumSquare', sans-serif;
+}
+.TimesNewRomanPSItalicMt {
+    font-family: 'TimesNewRomanPS-ItalicMT', 'NanumSquare', sans-serif;
+}
+
+.primary-inset-border:active{
+    border-radius: 2px;
+    box-shadow:inset 0 0 0 3px #635749;
+}
+
+/* 스크롤 디자인 */
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    //background-color: rgba(230, 230, 230, 0.9);
+}
+::-webkit-scrollbar-thumb {
+    //background-color: rgba(255, 118, 118, 0.9);
+    background-color: rgba(215, 211, 207, 0.3);
+}
+/* 스크롤 디자인 */

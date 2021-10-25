@@ -1,0 +1,32 @@
+From 748e69d172feab2cbee7114d3f5a93b173a6333f Mon Sep 17 00:00:00 2001
+From: "DESKTOP-C2SRBSU\\zuide" <zuiderzee@naver.com>
+Date: Tue, 2 Mar 2021 21:45:22 +0900
+Subject: [PATCH] =?UTF-8?q?auto=20completed=20=EC=B2=98=EB=A6=AC?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ public/js/app.js.LICENSE.txt | 6 ------
+ 1 file changed, 6 deletions(-)
+
+diff --git a/public/js/app.js.LICENSE.txt b/public/js/app.js.LICENSE.txt
+index 54bc097..bfde8f9 100644
+--- a/public/js/app.js.LICENSE.txt
++++ b/public/js/app.js.LICENSE.txt
+@@ -4,12 +4,6 @@ object-assign
+ @license MIT
+ */
+ 
+-/*!
+-  * Bootstrap v4.6.0 (https://getbootstrap.com/)
+-  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+-  */
+-
+ /*!
+  * Sizzle CSS Selector Engine v2.3.5
+  * https://sizzlejs.com/
+-- 
+2.24.1.windows.2
+
