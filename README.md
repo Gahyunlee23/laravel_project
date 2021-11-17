@@ -18,7 +18,6 @@
 ## Authors
 
 DEVELOPERS
-* [Hangyeol Noh](https://github.com/zuiderzee7)
 * [Gahyun Lee](https://github.com/Gahyunlee23)
 
 ## License
