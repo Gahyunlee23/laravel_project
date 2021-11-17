@@ -1,5 +1,3 @@
-# 호텔에삶
-
 ## Dependencies
 
 * PHP
